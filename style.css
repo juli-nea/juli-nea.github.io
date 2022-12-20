@@ -48,3 +48,20 @@ main {
     z-index: 0;
 }
 
+.intro {
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+
+    height: 40rem;
+
+    border: 1px solid pink;
+}
+
+.intro-image-container {
+    border: 1px solid green;
+}
+
+.intro-text-container {
+    border: 1px solid green;
+}
