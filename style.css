@@ -41,7 +41,10 @@ nav a{
 main {
     position: relative;
     height: 100rem;
+    width: 80%;
     margin-top: 6rem;
+
+    margin: 6rem auto;
 
     font-family: 'Montserrat', sans-serif;  
     border: 1px solid blue;
@@ -78,6 +81,18 @@ main {
     flex-direction: column;
     align-items:flex-end;
     
-    border: 1px solid green;
 
+    width: 40%;
+    border: 1px solid green;
+}
+
+.intro-text-container h1 {
+    text-transform: uppercase;
+    font-size: 4rem;
+    line-height: 1;
+}
+
+.intro-text-container p {
+    font-size: 1.5rem;
+    line-height: 1.5;
 }
