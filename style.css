@@ -25,7 +25,7 @@ nav {
     
     color: white;
     background-color: #0E1B2B;
-    border: 1px solid white;
+    /*border: 1px solid white;*/
     font-family: 'Roboto Mono', monospace;
     font-size: 1.25rem;
 
@@ -47,7 +47,7 @@ main {
     margin: 6rem auto;
 
     font-family: 'Montserrat', sans-serif;  
-    border: 1px solid blue;
+    /*border: 1px solid blue;*/
 
     z-index: 0;
 }
@@ -59,11 +59,11 @@ main {
 
     height: 40rem;
 
-    border: 1px solid pink;
+   /* border: 1px solid pink;*/
 }
 
 .intro-image-container {
-    border: 1px solid green;
+    /*border: 1px solid green;*/
     width: 40%;
     height: auto;
     overflow: hidden;
@@ -84,7 +84,7 @@ main {
     flex-wrap: wrap;
     
     width: 40%;
-    border: 1px solid green;
+    /*border: 1px solid green;*/
 }
 
 .intro-text-container h1 {
@@ -104,7 +104,7 @@ main {
     flex-direction: column;
     justify-content:space-around;
 
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     height: 55rem;
 }
 
@@ -122,7 +122,7 @@ main {
     display: flex;
     justify-content: center;
 
-    border: 1px solid green;
+   /*border: 1px solid green;*/
 }
 
 .pictures img {
@@ -134,7 +134,7 @@ main {
         display: flex;
         flex-direction: column;
         position: relative;
-        border: 1px solid blue;
+        /*border: 1px solid blue;*/
         align-items: center;
 }
 
@@ -144,7 +144,7 @@ main {
     display: flex;
     justify-content: center;
 
-    border: 1px solid green;
+    /*border: 1px solid green;*/
 }
 
 .pictures-row-two img {
