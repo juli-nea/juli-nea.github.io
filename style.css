@@ -105,8 +105,11 @@ main {
     justify-content:space-around;
 
     border: 1px solid red;
-    height: 30rem;
+    height: 60rem;
+}
 
+.projects h2 {
+    margin-left: 4rem;
 }
 
 .pictures {
@@ -115,19 +118,23 @@ main {
 
     display: flex;
     justify-content: space-around;
+   flex-wrap: wrap;
 
     border: 1px solid green;
 
     overflow: hidden;
 }
 
+
 .pictures img {
     max-width: 27%;
     height: auto;
-    display: block;
+    margin: 2rem;
 }
+
 
 .picture-titles {
     display: flex;
     justify-content: space-around;
+    align-items:center;
 }
