@@ -23,6 +23,7 @@ nav {
     
     color: white;
     border: 1px solid white;
+    font-family: 'Roboto Mono', monospace;
 }
 
 
@@ -32,3 +33,6 @@ nav a{
     text-decoration: none;
 }
 
+body {
+    font-family: 'Montserrat', sans-serif;   
+}
