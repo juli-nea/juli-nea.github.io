@@ -105,36 +105,49 @@ main {
     justify-content:space-around;
 
     border: 1px solid red;
-    height: 60rem;
+    height: 55rem;
 }
 
 .projects h2 {
     margin-left: 4rem;
 }
 
-.pictures {
-    height:auto;
-    width: 100%;
+.projects h3 {
+    margin: 1rem 0;
+}
 
+.pictures {
+    width: 100%;
+    overflow: hidden;
     display: flex;
-    justify-content: space-around;
-   flex-wrap: wrap;
+    justify-content: center;
 
     border: 1px solid green;
-
-    overflow: hidden;
 }
-
 
 .pictures img {
-    max-width: 27%;
+    max-width: 80%;
     height: auto;
-    margin: 2rem;
 }
 
+.project-one {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        border: 1px solid blue;
+        align-items: center;
+}
 
-.picture-titles {
+.pictures-row-two {
+    width: 100%;
+    overflow: hidden;
     display: flex;
-    justify-content: space-around;
-    align-items:center;
+    justify-content: center;
+
+    border: 1px solid green;
+}
+
+.pictures-row-two img {
+    max-width: 80%;
+    height: auto;
 }
