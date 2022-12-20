@@ -106,7 +106,6 @@ main {
 
     border: 1px solid red;
     height: 30rem;
-    margin-left: 4rem;
 
 }
 
@@ -118,7 +117,17 @@ main {
     justify-content: space-around;
 
     border: 1px solid green;
+
+    overflow: hidden;
 }
 
+.pictures img {
+    max-width: 27%;
+    height: auto;
+    display: block;
+}
 
-
+.picture-titles {
+    display: flex;
+    justify-content: space-around;
+}
