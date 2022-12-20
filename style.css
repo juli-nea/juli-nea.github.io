@@ -41,7 +41,7 @@ nav a{
 main {
     position: relative;
     height: 100rem;
-    width: 80%;
+    width: 90%;
     margin-top: 6rem;
 
     margin: 6rem auto;
@@ -65,7 +65,7 @@ main {
 .intro-image-container {
     border: 1px solid green;
     width: 40%;
-    height: 90%;
+    height: auto;
     overflow: hidden;
 }
 
@@ -78,10 +78,8 @@ main {
 
 .intro-text-container {
     display: flex;
-    flex-direction: column;
-    align-items:flex-end;
+    flex-wrap: wrap;
     
-
     width: 40%;
     border: 1px solid green;
 }
@@ -90,6 +88,7 @@ main {
     text-transform: uppercase;
     font-size: 4rem;
     line-height: 1;
+    
 }
 
 .intro-text-container p {
@@ -97,3 +96,6 @@ main {
     line-height: 1.5;
 }
 
+.projects {
+    display:flex;
+}
