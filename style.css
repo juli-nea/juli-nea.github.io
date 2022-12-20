@@ -67,6 +67,9 @@ main {
     width: 40%;
     height: auto;
     overflow: hidden;
+    
+    display: flex;
+    align-items: center;
 }
 
 .intro-image-container img {
@@ -98,4 +101,24 @@ main {
 
 .projects {
     display:flex;
+    flex-direction: column;
+    justify-content:space-around;
+
+    border: 1px solid red;
+    height: 30rem;
+    margin-left: 4rem;
+
 }
+
+.pictures {
+    height:auto;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-around;
+
+    border: 1px solid green;
+}
+
+
+
