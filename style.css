@@ -76,6 +76,7 @@ main {
     max-width: 100%;
     height: auto;
     display: block;
+    
 }
 
 
@@ -100,54 +101,40 @@ main {
 }
 
 .projects {
-    display:flex;
+    display: grid;
+    grid-gap: 15px; 
+    overflow: hidden;
+    grid-template-columns: repeat(auto-fit, minmax(20%, 1fr));
+    
+    border: 1px solid blue;
+  }
+
+ .projects img {
+ 
+    width: 100%;
+    
+ }
+
+.item {
+    
+    border: 1px solid green;
+    
+}
+
+.item-inner {
+    display: flex;
     flex-direction: column;
-    justify-content:space-around;
-
-    /*border: 1px solid red;*/
-    height: 55rem;
+    align-items: center;
+    
 }
 
-.projects h2 {
-    margin-left: 4rem;
+.item-title {
+    width: 50%;
+    border: 1px solid blue;
+    justify-self: center;
+    margin: 1rem;
 }
 
-.projects h3 {
-    margin: 1rem 0;
-}
 
-.pictures {
-    width: 100%;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
 
-   /*border: 1px solid green;*/
-}
 
-.pictures img {
-    max-width: 80%;
-    height: auto;
-}
-
-.project-one {
-        display: flex;
-        flex-direction: column;
-        position: relative;
-        /*border: 1px solid blue;*/
-        align-items: center;
-}
-
-.pictures-row-two {
-    width: 100%;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-
-    /*border: 1px solid green;*/
-}
-
-.pictures-row-two img {
-    max-width: 80%;
-    height: auto;
-}
