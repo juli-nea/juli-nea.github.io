@@ -101,7 +101,9 @@ main {
 }
 
 .section-title h2{
-    margin: 2rem;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    margin-left: 2rem;
 }
 
 .projects {
@@ -109,6 +111,7 @@ main {
     grid-gap: 15px; 
     overflow: hidden;
     grid-template-columns: repeat(auto-fit, minmax(20%, 1fr));
+  
     
     /* border: 1px solid blue; */
   }
@@ -159,6 +162,15 @@ main {
   .mytext {
     justify-self: center;
     margin-left: 2rem;
+    line-height: 1.5;
+  }
+
+  .mytext ul{
+    margin-top: 1rem;
+  }
+
+  .mytext li{
+    margin-left: 1rem;
   }
 
   .mytext h3{
