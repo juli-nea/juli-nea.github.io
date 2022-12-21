@@ -110,7 +110,7 @@ main {
     overflow: hidden;
     grid-template-columns: repeat(auto-fit, minmax(20%, 1fr));
     
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
   }
 
  .projects img {
@@ -121,7 +121,7 @@ main {
 
 .item {
     
-    border: 1px solid green;
+    /* border: 1px solid green; */
     
 }
 
@@ -134,7 +134,7 @@ main {
 
 .item-title {
     width: auto;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
   
     margin: 1rem;
 }
@@ -148,7 +148,7 @@ main {
     overflow: hidden;
     grid-template-columns: 1fr 2fr;
     
-    border: 1px solid blue;
+    /*border: 1px solid blue;*/
   }
 
   .mypicture img{
