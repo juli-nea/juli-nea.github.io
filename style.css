@@ -120,11 +120,13 @@ main {
  
     width: 100%;
     
+    
  }
 
 .item {
-    
+    color:white;
     /* border: 1px solid green; */
+    
     
 }
 
@@ -132,7 +134,8 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+    /*border: 2px solid white;
+    border-radius: 1.5rem;*/
 }
 
 .item-title {
@@ -157,6 +160,7 @@ main {
   .mypicture img{
     width: 100%;
     border-radius: 1rem;
+    
   }
 
   .mytext {
@@ -175,4 +179,9 @@ main {
 
   .mytext h3{
     margin-bottom: 2rem;
+  }
+
+  .contact-text p{
+    width: 50%;
+    margin: 0 auto;
   }
