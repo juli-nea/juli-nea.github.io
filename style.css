@@ -79,6 +79,12 @@ main {
     
 }
 
+#desk-picture {
+    width:30rem;
+    position:absolute;
+    
+}
+
 
 .intro-text-container {
     display: flex;

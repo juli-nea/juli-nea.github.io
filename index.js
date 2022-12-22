@@ -6,7 +6,7 @@ tiles.forEach(function(tile){
 })
 
 const makeBorder = (event) =>{
-    event.target.style.border = "2px solid white";
+    event.target.style.border = "2px solid blue";
 }
 
 const removeBorder = (event) => {
@@ -24,3 +24,12 @@ const eventAssignment = (project) => {
 }
 
 projects.forEach(eventAssignment);
+
+const pic = document.getElementById("desk-picture")
+
+
+const picSmall = () => {
+    pic.style.width = "10rem";
+}
+
+pic.addEventListener('click', picSmall);
