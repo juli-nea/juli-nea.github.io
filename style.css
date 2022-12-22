@@ -80,8 +80,8 @@ main {
 }
 
 #desk-picture {
-    width:30rem;
-    position:absolute;
+    width:auto;
+   
     
 }
 
@@ -191,3 +191,27 @@ main {
     width: 50%;
     margin: 0 auto;
   }
+
+
+@media only screen and (min-width: 320px) and (max-width: 480px), (orientation:portrait){
+    .aboutme {
+        width: 75%;
+        margin: 0 auto;
+        display: grid;
+        grid-gap: 15px; 
+        overflow: hidden;
+        grid-template-columns: 1fr;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px), (orientation:portrait){
+.projects {
+    display: grid;
+    grid-gap: 15px; 
+    overflow: hidden;
+    grid-template-columns: repeat(auto-fit, minmax(35%, 1fr));
+  
+    
+    /* border: 1px solid blue; */
+  }
+}

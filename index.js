@@ -25,11 +25,11 @@ const eventAssignment = (project) => {
 
 projects.forEach(eventAssignment);
 
-const pic = document.getElementById("desk-picture")
+const pic = document.getElementById("letsbuild")
 
 
-const picSmall = () => {
-    pic.style.width = "10rem";
+const fontGreen = () => {
+    pic.style.color = "green";
 }
 
-pic.addEventListener('click', picSmall);
+pic.addEventListener('click', fontGreen);
